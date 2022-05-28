@@ -8,6 +8,10 @@ class Checkout
   end
 
   def scan(product)
+    @cart << product
+    @product_count[product.code] = @product_count[product.code].to_i + 1
+
+    self
   end
 
   def total
