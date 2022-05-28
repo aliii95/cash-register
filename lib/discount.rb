@@ -7,7 +7,7 @@ class Discount
   FLAT_DISCOUNT = 'flat_discount'.freeze # relevant attributes: required_minimum_units, discounted_amount
   RATIO_DISCOUNT = 'ratio_discount'.freeze # relevant attributes: required_minimum_units, discount_ratio
 
-  def initialize(options = {})
+  def initialize(**options)
     @type = options[:type]
     @free_units = options[:free_units]
     @discount_ratio = options[:discount_ratio]
