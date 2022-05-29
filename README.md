@@ -1,7 +1,6 @@
 # Cash Register
 Ruby application that add products to the cart and calculate total price.
 
-
 <details>
   <summary>Description</summary>
 
@@ -36,6 +35,21 @@ Our check-out can scan items in any order, and because the CEO and COO change th
 </details>
   
 ## Solution:
+
+<details>
+  <summary>Pre Requisite</summary>
+
+  To Setup this Repo:
+
+- Ruby 3.0.2 should be installed locally
+
+- Bundler should be installed locally
+
+- Rspec gem should be installed locally
+
+Or Alternatively create Gemfile in the Repo after clonning
+</details>
+
 **Entities:**
 TDD approach is followed to build the following entities:
 
