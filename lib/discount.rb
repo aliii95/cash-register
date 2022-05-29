@@ -3,7 +3,7 @@ class Discount
                 :discounted_amount, :discount_ratio
 
   # Discount Schemes or Types
-  BUY_FEW_GET_FEW = 'buy_few_get_few'.freeze # relevant attributes: required_units, free_units
+  BUY_FEW_GET_FEW = 'buy_few_get_few'.freeze # relevant attributes: required_minimum_units, free_units
   FLAT_DISCOUNT = 'flat_discount'.freeze # relevant attributes: required_minimum_units, discounted_amount
   RATIO_DISCOUNT = 'ratio_discount'.freeze # relevant attributes: required_minimum_units, discount_ratio
 
